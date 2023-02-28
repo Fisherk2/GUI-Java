@@ -52,7 +52,7 @@ public class MainJFrame {
         
         //Como crear listas desplegables con JComboBox
         ListaDesplegableJComboBox listasDesplegables = new ListaDesplegableJComboBox();
-        listasDesplegables.setVisible(false);
+        listasDesplegables.setVisible(true);
         
         //Como crear Campos con contraseña con JPasswordField
         ContraseñaJPasswordField campoContraseña = new ContraseñaJPasswordField();
@@ -60,7 +60,7 @@ public class MainJFrame {
         
         //Como crear Tablas con JTable
         TablaJTable tablas = new TablaJTable();
-        tablas.setVi-sible(true);
+        tablas.setVisible(false);
         
     }
 
